@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exe4</title>
+    
+    <style>
+        .flex-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column; 
+   
+
+    
+}
+         fieldset{
+            border: 1px solid black;
+            background-color: rgb(218, 218, 161);
+            width:500px ;
+            
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-layout">
+         <div  >
+            <fieldset>
+                <legend>Personal details</legend>
+         <form>
+        <label for="firstname:"> &nbsp; &nbsp; &nbsp;First name:</label>
+        <input type="text" name="firstname">
+        <br>
+        <label for="lastname"> &nbsp; &nbsp; &nbsp;Last name:</label>
+        <input type="text" name="lastname">
+        <br>
+        <label name="email">Email Addres:</label>
+        <input type="email" name="email">
+        <br>
+        <label for="gender">Gender:</label>
+         <input type="radio" name="gender" id="" value="Female">
+        <label for="">Female</label>
+         <input type="radio" name="gender" id="" value="male">
+         <label for="">Male</label>
+         </form>
+         </fieldset>
+        
+
+    </div>
+    <div >
+        <fieldset><legend>Magazines</legend>
+         <form>
+                <input type="checkbox" name="maName1" value="stavanger aftenblad">
+                <label>Stavanger Aftenblad</label>
+                <br>
+                <input type="checkbox" name="maName2" value="teknisk ukeblad">
+                <label>Teknisk Ukeblad</label>
+                <br>
+                 <input type="checkbox" name="maName3" value="se og hor">
+                <label>Se Og Hor</label>
+                <br>
+                 <input type="checkbox" name="maName4" value="familien">
+                <label>Familien</label>
+            </form>
+            </fieldset>
+    </div>
+    <div >
+        <fieldset>
+            <legend>Subscription</legend>
+         <form>
+                <label>Period:</label>
+                <input type="number" min="1" name="" id="" placeholder="6 months">
+                <br>
+               
+            </form>
+            </fieldset>
+    </div>
+     <button>subscibe</button>
+    </div>
+</body>
+</html>
